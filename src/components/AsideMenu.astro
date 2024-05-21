@@ -1,0 +1,47 @@
+---
+import AsideMenuIem from "./AsideMenuIem.astro";
+import Library from "./Icons/Library.astro";
+import HomeIcon from "./Icons/HomeIcon.astro";
+import SearchIcon from "./Icons/SearchIcon.astro";
+import ContenICon from "./Icons/ContendIcon.astro";
+---
+<nav class=" flex flex-col flex-1 gap-2">
+    <div class="bg-zinc-900 rounded-lg p-2">
+        <ul>
+            <AsideMenuIem href="/">
+                <HomeIcon />
+                 Inicio
+            </AsideMenuIem>
+
+            <AsideMenuIem href="">
+                <SearchIcon />
+                Buscar
+            </AsideMenuIem>
+
+            <AsideMenuIem href="">
+                <ContenICon />
+                Contenido
+            </AsideMenuIem>
+
+            <AsideMenuIem href="">
+                <Library />
+                ALFABOT
+            </AsideMenuIem>
+
+            
+        </ul>
+    </div>
+
+    <div class="bg-zinc-900 rounded-lg p-2">
+        <ul>
+            <AsideMenuIem href="">
+                <ContenICon />
+                Biblioteca Alfabetizacion TIC
+            </AsideMenuIem>
+            
+        
+        </ul>
+       
+    </div>
+    
+</nav>
